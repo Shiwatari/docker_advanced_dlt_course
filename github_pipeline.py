@@ -72,7 +72,7 @@ pipeline = dlt.pipeline(
     pipeline_name="jaffle_shop_pipeline",
     destination="duckdb",
     dataset_name="jaffle_stage",
-    dev_mode=True,
+    dev_mode=False,
 )
 
 load_info = pipeline.run(jaffle_source())
