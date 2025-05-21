@@ -1,0 +1,4 @@
+dlt[duckdb]
+ipykernel
+retrying
+dlt[cli]
